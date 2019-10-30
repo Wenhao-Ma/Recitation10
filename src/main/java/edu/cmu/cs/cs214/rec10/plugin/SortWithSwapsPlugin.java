@@ -25,7 +25,7 @@ public class SortWithSwapsPlugin implements GamePlugin {
     static Integer count = null;
 
     public String getGameName() {
-        return new String("sort with swaps plugin");
+        return "sort with swaps plugin";
     }
 
     public int getGridWidth() {
@@ -95,8 +95,6 @@ public class SortWithSwapsPlugin implements GamePlugin {
     }
 
     public boolean isGameOver() {
-//        System.out.println("here");
-
         // Checks that array is properly sorted
         for (int i = 0; i < 9; i++) {
             Integer j = Integer.parseInt(framework.getSquare(i+1, 0));
@@ -109,7 +107,7 @@ public class SortWithSwapsPlugin implements GamePlugin {
     }
 
     public String getGameOverMessage() {
-        return "you did it in" + count + "moves!";
+        return String.format("you did it in %d moves!", count);
     }
 
     public void onGameClosed() {
