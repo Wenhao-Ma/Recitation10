@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a7fb3ef-8fd8-4cda-a816-13f2d869f425" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/cs214/rec10/plugin/SortWithSwapsPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/cs214/rec10/plugin/SortWithSwapsPlugin.java" afterDir="false" />
-    </list>
+    <list default="true" id="9a7fb3ef-8fd8-4cda-a816-13f2d869f425" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
